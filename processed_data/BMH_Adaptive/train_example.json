@@ -1,0 +1,20 @@
+{
+  "type": "four_choice",
+  "prompt": [
+    {
+      "content": "64 people are in a single elimination rock-paper-scissors tournament, which consists of a 6-round knockout bracket. Each person has a different rock-paper-scissors skill level, and in any game, the person with the higher skill level will always win. For how many players \\( P \\) is it possible that \\( P \\) wins the first four rounds that he plays?\nA. 48\nB. 46\nC. 47\nD. 49\n\nThink step by step and put the final answer within \\boxed{}.",
+      "role": "user"
+    }
+  ],
+  "data_source": "BigMathHard",
+  "ability": "math",
+  "reward_model": {
+    "ground_truth": "49",
+    "style": "rule"
+  },
+  "extra_info": {
+    "index": 0,
+    "question_id": "q_0",
+    "split": "train"
+  }
+}
